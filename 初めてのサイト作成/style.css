@@ -1,0 +1,285 @@
+body {
+  width: 100%;
+  margin: 0 auto;
+  width: 1300px;
+}
+
+.main {
+  width: 1200px;
+  margin: 0 auto;
+}
+.top {
+  position: relative;
+
+}
+
+.top img {
+  width: 100%;
+}
+
+.top p {
+  position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 60px;
+    color: white;/*文字色*/
+  white-space: nowrap;
+  text-shadow: 1px 0 5px black;
+}
+
+.top img {
+  position: absolute;
+  width: 70px;
+  top: 5%;
+  left: 9%;
+  border-radius: 30px;
+}
+
+.logo-p p{
+  position: absolute;
+  width: 70px;
+  top: 16%;
+  left: 5.7%;
+  font-size: initial;
+  font-size: 30px;
+  color:white;
+  font-family: コーポレート明朝 ver2;
+  text-shadow: initial;
+  text-shadow: 2px 0 rgb(20, 18, 13);
+}
+
+
+.list  {
+ position: absolute;
+ display: flex;
+ font-size: 20px;
+ justify-content: flex-end;
+ top: 0px;
+ margin-right: 50px;
+ right: 5px;
+}
+
+.list li {
+  list-style: none;
+  background: rgba(255, 187, 1, 0.8);
+  border-radius: 30px;
+  color: white;
+  padding: 15px 30px;
+  margin: 1px;
+  text-shadow: 2px 0 3px black;
+  font-family: normal;
+  
+}
+
+.list a {
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+.main-list {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.list1{
+  margin: 0 10px;
+  flex-grow: inherit;
+}
+
+.list1 div {
+  width: 300px;
+  height: 400px;
+  background: rgba(255,0,0,0.2);
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30px;
+}
+  
+.list1 p {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 0 5px black;
+}
+
+.list2 {
+  margin: 0 10px;
+}
+
+.list2 div {
+    width: 300px;
+    height: 400px;
+    background: rgba(105, 83, 163, 0.2);
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 28px;
+  }
+
+.list2 p {
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 20px;
+  text-shadow: 1px 0 5px black;
+}
+
+.list3 {
+  margin: 0 10px;
+}
+
+.list3 div {
+  width: 300px;
+  height: 400px;
+  background: rgba(117, 233, 161, 0.2);
+  position: relative;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 28px;
+}
+
+.list3 p {
+font-family: 'Times New Roman', Times, serif;
+color: white;
+font-size: 20px;
+text-shadow: 1px 0 5px black;
+}
+
+.kigyou {
+  margin-top: 70px;
+  position: relative;
+}
+
+.kigyou h1 {
+  border-bottom: orange 1px solid;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  margin-left: 60px;
+  padding-left: 30px;
+  font-family: コーポレート明朝 ver2;
+}
+
+.kigyou p {
+  font-size: 25px;
+  line-height: 2;
+}
+
+.kigyou img {
+  width: 600px;
+}
+
+.kigyou-list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.kigyou-list p {
+  margin-left: 80px;
+  margin-top: 60px;
+  font-size: 27px;
+}
+
+.kigyou-list img{
+  margin-right: 20px;
+  z-index: 100;
+}
+
+.kigyou-haikei {
+  background: rgba(255, 166, 0, 0.2);
+  width: 520px;
+  height: 300px;
+  position: absolute;
+  top: 230px;
+  right: 150px;
+}
+
+.kigyou-haikei-p{
+  color: rgba(255, 166, 0, 0.2);
+  font-size: initial;
+}
+
+.kigyou-haikei-p p {
+  font-size: initial;
+  font-size: 55px;
+  padding-left: 70px;
+  margin-top: 30px;
+}
+
+.hinsitsu {
+  margin-top: 70px;
+  position: relative;
+}
+
+.hinsitsu h1 {
+  border-bottom: orange 1px solid;
+  padding-bottom: 20px;
+  margin: 0 auto;
+  margin-left: 50px;
+  font-family: コーポレート明朝 ver2;
+  padding-left: 1000px;
+}
+
+.hinsitsu p {
+  font-size: 25px;
+  line-height: 2;
+}
+
+.hinsitsu img {
+  width: 600px;
+}
+
+.hinsitsu-list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hinsitsu-list p {
+  order: 2;
+  margin-top: 60px;
+  font-size: 27px;
+}
+
+.hinsitsu-list img{
+  order: 1;
+  margin-left: 80px;
+  z-index: 100;
+}
+
+.hinsitsu-haikei {
+  background: rgba(255, 166, 0, 0.2);
+  width: 520px;
+  height: 300px;
+  position: absolute;
+  top: 235px;
+  left: 210px
+}
+
+.hinsitsu-haikei-p{
+  color: rgba(255, 166, 0, 0.2);
+  font-size: initial;
+}
+
+.hinsitsu-haikei-p p {
+  font-size: initial;
+  font-size: 55px;
+  padding-left: 670px;
+  margin-top: 30px;
+}
